@@ -1,0 +1,12 @@
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.HttpRequest\bin\Debug\net5.0\Services.HttpRequest.deps.json
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.HttpRequest\bin\Debug\net5.0\Services.HttpRequest.dll
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.HttpRequest\bin\Debug\net5.0\ref\Services.HttpRequest.dll
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.HttpRequest\bin\Debug\net5.0\Services.HttpRequest.pdb
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.HttpRequest\obj\Debug\net5.0\Services.HttpRequest.csproj.AssemblyReference.cache
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.HttpRequest\obj\Debug\net5.0\Services.HttpRequest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.HttpRequest\obj\Debug\net5.0\Services.HttpRequest.AssemblyInfoInputs.cache
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.HttpRequest\obj\Debug\net5.0\Services.HttpRequest.AssemblyInfo.cs
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.HttpRequest\obj\Debug\net5.0\Services.HttpRequest.csproj.CoreCompileInputs.cache
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.HttpRequest\obj\Debug\net5.0\Services.HttpRequest.dll
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.HttpRequest\obj\Debug\net5.0\ref\Services.HttpRequest.dll
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Services.HttpRequest\obj\Debug\net5.0\Services.HttpRequest.pdb
