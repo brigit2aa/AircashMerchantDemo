@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.Signature", "Servi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.Setting", "Services.Setting\Services.Setting.csproj", "{274111C3-7BF3-46AF-8853-B693FC8C1E7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.AircashPay", "AircashPayService\Service.AircashPay.csproj", "{36346008-1601-42B3-83BC-34FC44219719}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service.AircashPay", "AircashPayService\Service.AircashPay.csproj", "{36346008-1601-42B3-83BC-34FC44219719}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.HttpRequest", "Services.HttpRequest\Services.HttpRequest.csproj", "{31285A63-6B92-4D3A-B27B-23644408BA26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{36346008-1601-42B3-83BC-34FC44219719}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36346008-1601-42B3-83BC-34FC44219719}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36346008-1601-42B3-83BC-34FC44219719}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31285A63-6B92-4D3A-B27B-23644408BA26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31285A63-6B92-4D3A-B27B-23644408BA26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31285A63-6B92-4D3A-B27B-23644408BA26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31285A63-6B92-4D3A-B27B-23644408BA26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +80,7 @@ Global
 		{C66A8ED0-E1B4-4617-802B-34842AC5A781} = {E463EBF9-BA81-4AC7-983E-E19AFAA61DC9}
 		{274111C3-7BF3-46AF-8853-B693FC8C1E7B} = {E463EBF9-BA81-4AC7-983E-E19AFAA61DC9}
 		{36346008-1601-42B3-83BC-34FC44219719} = {E463EBF9-BA81-4AC7-983E-E19AFAA61DC9}
+		{31285A63-6B92-4D3A-B27B-23644408BA26} = {E463EBF9-BA81-4AC7-983E-E19AFAA61DC9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8995D13D-645E-4681-8712-5850AB7AA4E4}

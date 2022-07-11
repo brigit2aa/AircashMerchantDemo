@@ -27,7 +27,7 @@ namespace WebApi.Controllers
         public async Task<IActionResult> GetTransactions()
         {
             return Ok(await _transactionService.GetTransactions());
-           
+  
         }
 
         [HttpPost]

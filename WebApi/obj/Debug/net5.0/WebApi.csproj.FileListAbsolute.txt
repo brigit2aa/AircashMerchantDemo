@@ -70,3 +70,4 @@ C:\Users\Brigita\source\repos\AircashMerchantDemo\WebApi\bin\Debug\net5.0\Servic
 C:\Users\Brigita\source\repos\AircashMerchantDemo\WebApi\bin\Debug\net5.0\Services.Setting.pdb
 C:\Users\Brigita\source\repos\AircashMerchantDemo\WebApi\bin\Debug\net5.0\Service.AircashPay.dll
 C:\Users\Brigita\source\repos\AircashMerchantDemo\WebApi\bin\Debug\net5.0\Service.AircashPay.pdb
+C:\Users\Brigita\source\repos\AircashMerchantDemo\WebApi\obj\Debug\net5.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
