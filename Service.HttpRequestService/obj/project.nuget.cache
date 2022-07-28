@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "PzaScRk2/sydFEZD4oSHZhV6b1L0+UEBStK7y83jKVOqYzL/f0pIbFNELGP6TsLXXDwAK3+KpF0hgE507AiU9w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\Service.HttpRequestService\\Service.HttpRequestService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Brigita\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N7GZqjh2+G5R/c65Qonx5wkQMkMMReeIJMAE9siaXoIgNjLAExD0n68OV8duI1rdNg0Q2SBxNxQg+wAYOSQ24w==",
+  "dgSpecHash": "pFpzpbJmHBOZypYf3+79Uj+NtSgfCUgyhW/VcFTHzgQ8n9Bhvu1FoIytGZdl6ET58Rm3EIPfe/1yTkOgFeY25w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Signature\\Services.Signature.csproj",
+  "projectFilePath": "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\Services.Signature\\Services.Signature.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Brigita\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Brigita\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
