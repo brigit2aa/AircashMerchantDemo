@@ -22,8 +22,23 @@ namespace WebApi.Controllers
         [HttpPost]
         public async Task<IActionResult> GeneratePartnerCode(GeneratePartnerCode generatePartnerCode)
         {
-            await _aircashPayService.GeneratePartnerCode(generatePartnerCode.Amount, generatePartnerCode.CurrencyID, generatePartnerCode.Description, generatePartnerCode.LocationID);
+            await _aircashPayService.GeneratePartnerCode(generatePartnerCode.Amount, generatePartnerCode.CurrencyID, generatePartnerCode.Description);
             return Ok(generatePartnerCode);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ConfirmTransaction(ConfirmTransaction confirmTransaction)
+        {
+            await _aircashPayService.ConfirmTransaction(confirmTransaction.Amount, confirmTransaction.CurrencyID, confirmTransaction.AircashTransactionID);
+            return Ok(confirmTransaction);
+
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CancelTransaction(CancelTransaction cancelTransaction)
+        {
+            await _aircashPayService.CancelTransaction();
+            return Ok(cancelTransaction);
         }
     }
 }

@@ -17,7 +17,7 @@ using Services.Transactions;
 using Services.Signature;
 using Services.Setting;
 using Service.AircashPay;
-using Service.HttpRequestService;
+using Services.HttpRequest;
 
 namespace WebApi
 {
@@ -44,10 +44,9 @@ namespace WebApi
             services.AddTransient<ITransactionService, TransactionService>();
             services.AddTransient<ISignatureService, SignatureService>();
             services.AddTransient<ISettingService, SettingService>();
-            services.AddTransient<IAircashPayService, AircashPayService>();
-            services.AddTransient<IHttpRequestService, HttpRequestService>();
             services.AddMemoryCache();
-       
+            // services.AddTransient<IAircashPayService, AircashPayService>();
+            services.AddTransient<IHttpRequestService, HttpRequestService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

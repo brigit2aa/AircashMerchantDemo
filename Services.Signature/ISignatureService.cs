@@ -9,6 +9,5 @@ namespace Services.Signature
     public interface ISignatureService
     {
         string GenerateSignature(string dataToSign);
-        bool VerifySignature(string ceftificatePath, string signature, string dataToVerify);
     }
 }
