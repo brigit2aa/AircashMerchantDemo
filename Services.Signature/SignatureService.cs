@@ -26,7 +26,7 @@ namespace Services.Signature
             _settingService = settingService;
         }
 
-        public /*static*/ string GenerateSignature(string dataToSign)
+        public string GenerateSignature(string dataToSign)
         {
             var certificatePath = _settingService.PrivateKeyPath;
             var certificatePass = _settingService.PrivateKeyPass;
@@ -38,7 +38,6 @@ namespace Services.Signature
 
             using (var rsa = certificate.GetRSAPrivateKey())
             {
-                //dataToSign = "";
                 var signeddata = rsa.SignData(originalData, HashAlgorithmName.SHA256, RSASignaturePadding.Pkcs1);
                 return Convert.ToBase64String(signeddata);
             }
@@ -52,7 +51,7 @@ namespace Services.Signature
         /// <param name="signature">Signature property received form Aircash in request.</param>
         /// <param name="dataToSign">All parameters expect signature joined in one string as Aircash documentation state.</param>
         /// <returns>Returns true in case signature verification was successful or false otherwise.</returns>
-        public static bool VerifySignature(string ceftificatePath, string signature, string dataToVerify)
+        public bool VerifySignature(string ceftificatePath, string signature, string dataToVerify)
         {
             // Load the certificate we’ll use to verify the signature from a file.
             var certificate = new X509Certificate2(ceftificatePath);

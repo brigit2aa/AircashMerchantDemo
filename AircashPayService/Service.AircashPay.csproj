@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Services.HttpRequest\Services.HttpRequest.csproj" />
+    <ProjectReference Include="..\Service.HttpRequestService\Service.HttpRequestService.csproj" />
     <ProjectReference Include="..\Services.Signature\Services.Signature.csproj" />
   </ItemGroup>
 

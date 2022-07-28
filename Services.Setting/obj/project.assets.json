@@ -5746,11 +5746,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Setting\\Services.Setting.csproj",
+      "projectUniqueName": "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\Services.Setting\\Services.Setting.csproj",
       "projectName": "Services.Setting",
-      "projectPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Setting\\Services.Setting.csproj",
+      "projectPath": "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\Services.Setting\\Services.Setting.csproj",
       "packagesPath": "C:\\Users\\Brigita\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Setting\\obj\\",
+      "outputPath": "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\Services.Setting\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5771,8 +5771,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\DataAccess\\DataAccess.csproj"
             }
           }
         }
