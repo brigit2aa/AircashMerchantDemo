@@ -1,4 +1,5 @@
-﻿using Service.HttpRequestService;
+﻿using Newtonsoft.Json;
+using Service.HttpRequestService;
 using Services.Setting;
 using Services.Signature;
 using System;
@@ -43,7 +44,7 @@ namespace Service.AircashPay
             var response = await _httpRequestService.SendHttpRequest(generatePartnerCode, HttpMethod.Post, "https://dev-m3.aircash.eu/api/AircashPay/GeneratePartnerCode");
             if (response.ResponseCode == System.Net.HttpStatusCode.OK)
             {
-                responseContent = response.ResponseContent;
+                responseContent = JsonConvert.DeserializeObject<GeneratePartnerCodeResponse>(response.ResponseContent);
             }
             else
             {
