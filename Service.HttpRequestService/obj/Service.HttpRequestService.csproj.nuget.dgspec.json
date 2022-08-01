@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\Service.HttpRequestService\\Service.HttpRequestService.csproj": {}
+    "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Service.HttpRequestService\\Service.HttpRequestService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\Service.HttpRequestService\\Service.HttpRequestService.csproj": {
+    "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Service.HttpRequestService\\Service.HttpRequestService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\Service.HttpRequestService\\Service.HttpRequestService.csproj",
+        "projectUniqueName": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Service.HttpRequestService\\Service.HttpRequestService.csproj",
         "projectName": "Service.HttpRequestService",
-        "projectPath": "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\Service.HttpRequestService\\Service.HttpRequestService.csproj",
+        "projectPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Service.HttpRequestService\\Service.HttpRequestService.csproj",
         "packagesPath": "C:\\Users\\Brigita\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\Service.HttpRequestService\\obj\\",
+        "outputPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Service.HttpRequestService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

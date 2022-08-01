@@ -40,8 +40,8 @@ namespace Service.AircashPay
             var dataToString = $"Amount={generatePartnerCode.Amount}&CurrencyID={generatePartnerCode.CurrencyID}&Description={generatePartnerCode.Description}&LocationID={generatePartnerCode.LocationID}&PartnerID={generatePartnerCode.PartnerID}&PartnerTransactionID={generatePartnerCode.PartnerTransactionID}"; 
             var signature = _signatureService.GenerateSignature(dataToString);
             generatePartnerCode.Signature = signature;
-            var response = await _httpRequestService.SendHttpRequest(generatePartnerCode, HttpMethod.Post, "https://staging-m3.aircash.eu/api/AircashPay/GeneratePartnerCode");
-            if(response.ResponseCode == System.Net.HttpStatusCode.OK)
+            var response = await _httpRequestService.SendHttpRequest(generatePartnerCode, HttpMethod.Post, "https://dev-m3.aircash.eu/api/AircashPay/GeneratePartnerCode");
+            if (response.ResponseCode == System.Net.HttpStatusCode.OK)
             {
                 responseContent = response.ResponseContent;
             }
@@ -51,5 +51,5 @@ namespace Service.AircashPay
             }
             return responseContent;
         }
-    }
+    } 
 }

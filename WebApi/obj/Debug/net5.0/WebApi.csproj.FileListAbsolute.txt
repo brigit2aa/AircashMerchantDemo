@@ -218,3 +218,6 @@ C:\Users\Brigita\Desktop\MerchantDemo-dev\WebApi\obj\Debug\net5.0\WebApi.pdb
 C:\Users\Brigita\Desktop\MerchantDemo-dev\WebApi\obj\Debug\net5.0\WebApi.genruntimeconfig.cache
 C:\Users\Brigita\Desktop\MerchantDemo-dev\WebApi\bin\Debug\net5.0\Service.HttpRequestService.dll
 C:\Users\Brigita\Desktop\MerchantDemo-dev\WebApi\bin\Debug\net5.0\Service.HttpRequestService.pdb
+C:\Users\Brigita\source\repos\AircashMerchantDemo\WebApi\bin\Debug\net5.0\Service.HttpRequestService.dll
+C:\Users\Brigita\source\repos\AircashMerchantDemo\WebApi\bin\Debug\net5.0\Service.HttpRequestService.pdb
+C:\Users\Brigita\source\repos\AircashMerchantDemo\WebApi\obj\Debug\net5.0\WebApi.MvcApplicationPartsAssemblyInfo.cs

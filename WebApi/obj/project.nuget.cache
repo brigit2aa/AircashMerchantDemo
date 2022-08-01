@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x6EPCI8JeynbUCmm2hfH787cgjfqYCjwNYz6AkCb1pOGzC10071YkabQWHX2YGjuF4IXTUdpIM+9z72RYNYejw==",
+  "dgSpecHash": "L49Ddr5EWvfP9G9SiZSeHjZE/OS2Q+4d+u/f0aRWeoqkqJeHkH9ou8cl1KybpkvCj/+jRd99E7SpfOvn74+Vwg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\WebApi\\WebApi.csproj",
+  "projectFilePath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Brigita\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Brigita\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
