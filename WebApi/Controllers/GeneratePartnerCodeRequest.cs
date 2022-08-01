@@ -11,5 +11,6 @@ namespace WebApi.Controllers
         public int CurrencyID { get; set; }
         public string Description { get; set; }
         public string LocationID { get; set; }
+       
     }
 }
