@@ -10,3 +10,15 @@ C:\Users\Brigita\Desktop\MerchantDemo-dev\Service.HttpRequestService\obj\Debug\n
 C:\Users\Brigita\Desktop\MerchantDemo-dev\Service.HttpRequestService\obj\Debug\net5.0\Service.HttpRequestService.dll
 C:\Users\Brigita\Desktop\MerchantDemo-dev\Service.HttpRequestService\obj\Debug\net5.0\ref\Service.HttpRequestService.dll
 C:\Users\Brigita\Desktop\MerchantDemo-dev\Service.HttpRequestService\obj\Debug\net5.0\Service.HttpRequestService.pdb
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Service.HttpRequestService\bin\Debug\net5.0\Service.HttpRequestService.deps.json
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Service.HttpRequestService\bin\Debug\net5.0\Service.HttpRequestService.dll
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Service.HttpRequestService\bin\Debug\net5.0\ref\Service.HttpRequestService.dll
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Service.HttpRequestService\bin\Debug\net5.0\Service.HttpRequestService.pdb
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Service.HttpRequestService\obj\Debug\net5.0\Service.HttpRequestService.csproj.AssemblyReference.cache
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Service.HttpRequestService\obj\Debug\net5.0\Service.HttpRequestService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Service.HttpRequestService\obj\Debug\net5.0\Service.HttpRequestService.AssemblyInfoInputs.cache
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Service.HttpRequestService\obj\Debug\net5.0\Service.HttpRequestService.AssemblyInfo.cs
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Service.HttpRequestService\obj\Debug\net5.0\Service.HttpRequestService.csproj.CoreCompileInputs.cache
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Service.HttpRequestService\obj\Debug\net5.0\Service.HttpRequestService.dll
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Service.HttpRequestService\obj\Debug\net5.0\ref\Service.HttpRequestService.dll
+C:\Users\Brigita\source\repos\AircashMerchantDemo\Service.HttpRequestService\obj\Debug\net5.0\Service.HttpRequestService.pdb

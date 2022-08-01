@@ -8,12 +8,12 @@ namespace Service.HttpRequestService
 {
     public class HttpRequestService : IHttpRequestService
     {
-        private readonly HttpClient HttpClient;
+        public static HttpClient HttpClient = new HttpClient();
 
-       /*public HttpRequestService(HttpClient httpClient)
-        {
-            HttpClient = httpClient;
-        }*/
+        /*public HttpRequestService(HttpClient httpClient)
+         {
+             HttpClient = httpClient;
+         }*/
 
         public async Task<HttpResponse> SendHttpRequest(object toSend, HttpMethod method, string uri)
         {

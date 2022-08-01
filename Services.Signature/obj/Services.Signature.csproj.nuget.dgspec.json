@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\Services.Signature\\Services.Signature.csproj": {}
+    "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Signature\\Services.Signature.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Brigita\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\Domain.Entities\\Domain.Entities.csproj": {
-                "projectPath": "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\Domain.Entities\\Domain.Entities.csproj"
+              "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Domain.Entities\\Domain.Entities.csproj": {
+                "projectPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Domain.Entities\\Domain.Entities.csproj"
               }
             }
           }
@@ -82,14 +82,14 @@
         }
       }
     },
-    "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\Domain.Entities\\Domain.Entities.csproj": {
+    "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Domain.Entities\\Domain.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\Domain.Entities\\Domain.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Domain.Entities\\Domain.Entities.csproj",
         "projectName": "Domain.Entities",
-        "projectPath": "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\Domain.Entities\\Domain.Entities.csproj",
+        "projectPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Domain.Entities\\Domain.Entities.csproj",
         "packagesPath": "C:\\Users\\Brigita\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\Domain.Entities\\obj\\",
+        "outputPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Domain.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -150,14 +150,14 @@
         }
       }
     },
-    "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\Services.Setting\\Services.Setting.csproj": {
+    "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Setting\\Services.Setting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\Services.Setting\\Services.Setting.csproj",
+        "projectUniqueName": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Setting\\Services.Setting.csproj",
         "projectName": "Services.Setting",
-        "projectPath": "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\Services.Setting\\Services.Setting.csproj",
+        "projectPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Setting\\Services.Setting.csproj",
         "packagesPath": "C:\\Users\\Brigita\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\Services.Setting\\obj\\",
+        "outputPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Setting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -178,8 +178,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -212,14 +212,14 @@
         }
       }
     },
-    "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\Services.Signature\\Services.Signature.csproj": {
+    "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Signature\\Services.Signature.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\Services.Signature\\Services.Signature.csproj",
+        "projectUniqueName": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Signature\\Services.Signature.csproj",
         "projectName": "Services.Signature",
-        "projectPath": "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\Services.Signature\\Services.Signature.csproj",
+        "projectPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Signature\\Services.Signature.csproj",
         "packagesPath": "C:\\Users\\Brigita\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\Services.Signature\\obj\\",
+        "outputPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Signature\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -240,8 +240,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\Services.Setting\\Services.Setting.csproj": {
-                "projectPath": "C:\\Users\\Brigita\\Desktop\\MerchantDemo-dev\\Services.Setting\\Services.Setting.csproj"
+              "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Setting\\Services.Setting.csproj": {
+                "projectPath": "C:\\Users\\Brigita\\source\\repos\\AircashMerchantDemo\\Services.Setting\\Services.Setting.csproj"
               }
             }
           }

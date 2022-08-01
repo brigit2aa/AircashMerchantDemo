@@ -63,3 +63,5 @@ C:\Users\Brigita\Desktop\MerchantDemo-dev\AircashPayService\obj\Debug\net5.0\ref
 C:\Users\Brigita\Desktop\MerchantDemo-dev\AircashPayService\obj\Debug\net5.0\Service.AircashPay.pdb
 C:\Users\Brigita\Desktop\MerchantDemo-dev\AircashPayService\bin\Debug\net5.0\Service.HttpRequestService.dll
 C:\Users\Brigita\Desktop\MerchantDemo-dev\AircashPayService\bin\Debug\net5.0\Service.HttpRequestService.pdb
+C:\Users\Brigita\source\repos\AircashMerchantDemo\AircashPayService\bin\Debug\net5.0\Service.HttpRequestService.dll
+C:\Users\Brigita\source\repos\AircashMerchantDemo\AircashPayService\bin\Debug\net5.0\Service.HttpRequestService.pdb

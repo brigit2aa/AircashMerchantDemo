@@ -20,10 +20,10 @@ namespace WebApi.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> GeneratePartnerCode(GeneratePartnerCode generatePartnerCode)
+        public async Task<IActionResult> GeneratePartnerCode(GeneratePartnerCodeRequest generatePartnerCodeRequest)
         {
-            await _aircashPayService.GeneratePartnerCode(generatePartnerCode.Amount, generatePartnerCode.CurrencyID, generatePartnerCode.Description, generatePartnerCode.LocationID);
-            return Ok(generatePartnerCode);
+            await _aircashPayService.GeneratePartnerCode(generatePartnerCodeRequest.Amount, generatePartnerCodeRequest.CurrencyID, generatePartnerCodeRequest.Description, generatePartnerCodeRequest.LocationID);
+            return Ok(generatePartnerCodeRequest);
         }
     }
 }
