@@ -22,8 +22,8 @@ namespace WebApi.Controllers
         [HttpPost]
         public async Task<IActionResult> GeneratePartnerCode(GeneratePartnerCodeRequest generatePartnerCodeRequest)
         {
-            await _aircashPayService.GeneratePartnerCode(generatePartnerCodeRequest.Amount, generatePartnerCodeRequest.CurrencyID, generatePartnerCodeRequest.Description, generatePartnerCodeRequest.LocationID);
-            return Ok(generatePartnerCodeRequest);
+            var response = await _aircashPayService.GeneratePartnerCode(generatePartnerCodeRequest.Amount, generatePartnerCodeRequest.CurrencyID, generatePartnerCodeRequest.Description, generatePartnerCodeRequest.LocationID);
+            return Ok(response);
         }
     }
 }

@@ -23,11 +23,11 @@ namespace Service.AircashPay
             _httpRequestService = httpRequestService;
         }
 
-        public async Task<object> GeneratePartnerCode(decimal amount, int currencyID, string description, string locationID)
+        public async Task<string> GeneratePartnerCode(decimal amount, int currencyID, string description, string locationID)
         {
             var partnerTransactionID = Guid.NewGuid();
             var partnerID = _settingService.PartnerID;
-            var responseContent = new object();
+            //var responseContent = new object();
             var generatePartnerCode = new GeneratePartnerCode()
             {
                 PartnerID = partnerID,
@@ -42,15 +42,18 @@ namespace Service.AircashPay
             var signature = _signatureService.GenerateSignature(dataToString);
             generatePartnerCode.Signature = signature;
             var response = await _httpRequestService.SendHttpRequest(generatePartnerCode, HttpMethod.Post, "https://dev-m3.aircash.eu/api/AircashPay/GeneratePartnerCode");
-            if (response.ResponseCode == System.Net.HttpStatusCode.OK)
+          
+            /*if (response.ResponseCode == System.Net.HttpStatusCode.OK)
             {
                 responseContent = JsonConvert.DeserializeObject<GeneratePartnerCodeResponse>(response.ResponseContent);
             }
             else
             {
                 responseContent = response.ResponseContent;
-            }
-            return responseContent;
+            }*/
+            // return (string)responseContent;
+            var responseContent = JsonConvert.DeserializeObject<GeneratePartnerCodeResponse>(response.ResponseContent);
+            return responseContent.CodeLink;
         }
     } 
 }

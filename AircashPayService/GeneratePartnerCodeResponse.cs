@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Service.AircashPay
 {
-    class GeneratePartnerCodeResponse
+    public class GeneratePartnerCodeResponse
     {
         public string CodeLink { get; set; }
     }
