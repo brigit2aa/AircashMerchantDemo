@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Mvc;
 using Service.AircashPay;
 using System;
 using System.Collections.Generic;
@@ -19,6 +20,7 @@ namespace WebApi.Controllers
             _aircashPayService = aircashPayService;
         }
 
+      
         [HttpPost]
         public async Task<IActionResult> GeneratePartnerCode(GeneratePartnerCodeRequest generatePartnerCodeRequest)
         {
