@@ -1,4 +1,6 @@
-﻿using Newtonsoft.Json;
+﻿using DataAccess;
+using Domain.Entities;
+using Newtonsoft.Json;
 using Service.HttpRequestService;
 using Services.Setting;
 using Services.Signature;
@@ -15,12 +17,14 @@ namespace Service.AircashPay
         private readonly ISettingService _settingService;
         private readonly ISignatureService _signatureService;
         private IHttpRequestService _httpRequestService;
+        private AircashSimulatorContext _aircashSimulatorContext;
 
-        public AircashPayService(ISettingService settingService, ISignatureService signatureService, IHttpRequestService httpRequestService)
+        public AircashPayService(ISettingService settingService, ISignatureService signatureService, IHttpRequestService httpRequestService, AircashSimulatorContext aircashSimulatorContext)
         {
             _settingService = settingService;
             _signatureService = signatureService;
             _httpRequestService = httpRequestService;
+            _aircashSimulatorContext = aircashSimulatorContext;
         }
 
         public async Task<string> GeneratePartnerCode(decimal amount, int currencyID, string description, string locationID)
@@ -42,18 +46,20 @@ namespace Service.AircashPay
             var signature = _signatureService.GenerateSignature(dataToString);
             generatePartnerCode.Signature = signature;
             var response = await _httpRequestService.SendHttpRequest(generatePartnerCode, HttpMethod.Post, "https://staging-m3.aircash.eu/api/AircashPay/GeneratePartnerCode");
-          
-            /*if (response.ResponseCode == System.Net.HttpStatusCode.OK)
-            {
-                responseContent = JsonConvert.DeserializeObject<GeneratePartnerCodeResponse>(response.ResponseContent);
-            }
-            else
-            {
-                responseContent = response.ResponseContent;
-            }*/
-            // return (string)responseContent;
+            
             var responseContent = JsonConvert.DeserializeObject<GeneratePartnerCodeResponse>(response.ResponseContent);
-            return responseContent.CodeLink;
+            
+            _aircashSimulatorContext.Transactions.Add(new TransactionEntity
+            {
+                Amount = amount,
+                IsoCurrencyCode = Convert.ToString(currencyID),
+                TransactionId = partnerTransactionID,
+                AircashTransactionId = new Guid(),
+                DateTimeUTC = DateTime.UtcNow
+            });
+            _aircashSimulatorContext.SaveChanges();
+          
+            return responseContent.CodeLink;      
         }
     } 
 }

@@ -43,7 +43,6 @@ namespace Services.Transactions
                 TransactionId = transactionDto.TransactionId,
                 AircashTransactionId = transactionDto.AircashTransactionId,
                 DateTimeUTC = transactionDto.DateTimeUTC
-
             };
             AircashSimulatorContext.Transactions.Add(transaction2);
             await AircashSimulatorContext.SaveChangesAsync();
