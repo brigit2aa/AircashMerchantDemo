@@ -11,3 +11,4 @@ namespace Service.AircashPay
        Task<string> GeneratePartnerCode(decimal amount, int currencyID, string description, string locationID);
     }
 }
+ 

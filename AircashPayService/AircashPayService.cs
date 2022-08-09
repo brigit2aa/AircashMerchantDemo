@@ -59,7 +59,7 @@ namespace Service.AircashPay
             });
             _aircashSimulatorContext.SaveChanges();
           
-            return responseContent.CodeLink;    
+            return responseContent.CodeLink;      
         }
     } 
 }
